@@ -1,0 +1,141 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[left=0.45in,right=0.45in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{mathptmx}              % Times-like font
+\usepackage[T1]{fontenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\definecolor{heading}{HTML}{2A4BA0}
+\hypersetup{urlcolor=heading,linkcolor=heading}
+
+% ---------- Section style ----------
+\titleformat{\section}
+  {\color{heading}\bfseries\scshape\Large}
+  {}{0em}{}
+  [\vspace{1pt}{\color{black}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{7pt}{7pt}
+
+% ---------- Bullet list style ----------
+\setlist[itemize]{leftmargin=1.6em,itemsep=2.5pt,topsep=3pt,parsep=0pt,label=\textbullet}
+
+% ---------- Helper commands ----------
+\newcommand{\entry}[2]{\noindent\textbf{#1}\hfill\textbf{#2}\par\vspace{2pt}}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+  {\fontsize{22}{26}\selectfont\bfseries\color{heading} Jatin Batra}\\[5pt]
+  {\large
+   \href{mailto:jatinxxxxx18@gmail.com}{jatinxxxxx18@gmail.com} \,|\, +91 99XXXXXXXXXX \,|\,
+   \href{https://www.linkedin.com/in/jatinxxxxx18}{www.linkedin.com/in/jatinxxxxx18}}
+\end{center}
+\vspace{-15pt}
+% full-width rule, edge to edge of the page
+\noindent\makebox[\linewidth][c]{\color{black}\rule{\paperwidth}{0.6pt}}
+\vspace{-18pt}
+
+% ---------- Professional Summary ----------
+\section{Professional Summary}
+\normalsize
+Accomplished financial analyst with strong background in financial and fraud analysis.
+Delivered a 20\% acceleration in month-end closing processes and maintained a 95\% accuracy
+rate in financial transactions. Led budgeting processes resulting in improvement in accuracy
+and managed over 1,000 fraud cases per month, mitigating potential losses. Certified Lean Six
+Sigma Black Belt \& Green Belt. Pursuing MBA in Accounting and Finance from Golden Gate
+University to learn and apply new concepts in day-to-day processes.
+
+% ---------- Education ----------
+\section{Education}
+\normalsize
+\entry{Golden Gate University, USA}{Nov 2023 -- Feb 2025}
+MBA: Accounting and Finance
+
+% ---------- Experience ----------
+\section{Experience}
+\normalsize
+\entry{Financial Analyst: Accenture | Gurugram, India}{Jun 2022 -- Present}
+\begin{itemize}
+  \item Developed a dynamic financial model, improving accuracy of revenue forecasts by 15\% and
+        managed a \$50 million investment portfolio, achieving an average annual return of 12\%
+        through risk management
+  \item Generated monthly reports analyzing key financial metrics, leading to a 10\% reduction in
+        operating expenses by identifying cost-saving opportunities
+  \item Collaborated with cross-functional teams to implement process improvements, reducing
+        monthly close time by 20\% in financial reporting
+  \item Contributed to the development of the annual budget, increasing profitability by 5\% and
+        aligning with strategic growth objectives
+\end{itemize}
+
+% ---------- Projects ----------
+\section{Projects}
+\normalsize
+\entry{Data Analyst: Fair Trade Bank of America | \href{https://example.com}{Link}}{Jan 2021 -- May 2022}
+\begin{itemize}
+  \item Steered revenue and data analysis for the Impact, Research, and Learning team, resulting
+        in a 15\% increase in revenue growth and a 20\% improvement in data-driven decision-making
+  \item Elevated satisfaction scores by an impressive 30\%, meticulously analyzing 1500 surveys and
+        correlating insights with \$3.5B in revenue data
+  \item Strategically identified prime portfolio targets through rigorous analysis of \$540B sales
+        data obtained from 10 major retailers, contributing to a 25\% surge in new business
+        opportunities
+  \item Provided ad hoc financial analysis supporting a 15\% increase in shareholder value and
+        informing strategic decisions for successful market expansion initiatives
+\end{itemize}
+
+% ---------- Skills ----------
+\section{Skills}
+\normalsize
+\begin{minipage}[t]{0.32\textwidth}
+\begin{itemize}
+  \item Financial Analysis
+  \item Budgeting
+  \item Risk Management
+  \item Transaction Monitoring
+  \item Data Analysis
+\end{itemize}
+\end{minipage}%
+\begin{minipage}[t]{0.32\textwidth}
+\begin{itemize}
+  \item MS Excel
+  \item Fraud Detection
+  \item Fraud Investigation
+  \item Fraud Analytics Tools
+  \item Forensic Analysis
+\end{itemize}
+\end{minipage}%
+\begin{minipage}[t]{0.34\textwidth}
+\begin{itemize}
+  \item AML (Anti-Money Laundering)
+  \item KYC (Know Your Customer)
+  \item R2R \& OTC (AP \& AR)
+\end{itemize}
+\end{minipage}
+
+% ---------- Certifications ----------
+\section{Certifications}
+\normalsize
+\begin{itemize}[itemsep=1pt]
+  \item \makebox[\linewidth][l]{Financial Analyst by Udemy\hfill\textbf{Apr 2023}}
+  \item \makebox[\linewidth][l]{Financial Modelling by CFI\hfill\textbf{Nov 2022}}
+\end{itemize}
+
+% ---------- Achievements ----------
+\section{Achievements}
+\normalsize
+\begin{itemize}
+  \item Distinguished as ``Employee of the Year'' in recognition of outstanding performance at Accenture
+  \item Received annual recognition in a year from stakeholders for exceptional performance at Bank of America
+\end{itemize}
+
+\end{document}
